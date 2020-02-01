@@ -1,0 +1,178 @@
+::placeholder {
+  color: #ffffff80 !important;
+}
+
+/*
+  Sidebar
+*/
+
+/* Sidebar */
+._1enh._7q1s {
+  background-color: #2a2b2e;
+  z-index: 1000;
+  border-right: 1px solid #0000006b;
+}
+/* Search */
+._5iwm._6-_b ._58al {
+  color: white;
+  background-color: #ffffff0d;
+}
+/* "Chats" */
+._1enh._7q1s ._6-xo {
+  color: white;
+}
+/* Unread msg preview */
+._1ht3 ._1htf {
+  color: #fff;
+}
+/* Settings & New Msg icons */
+._1enh._7q1s path {
+  fill: white;
+}
+._6ymu._7iq4,
+._30yy._6-xp._6-xq {
+  background-color: #ffffff1f;
+}
+/* Chat name */
+._1enh._7q1s ._1ht6._7st9 {
+  color: white;
+}
+._1enh._7q1s abbr.timestamp {
+  color: #ffffff66;
+}
+
+/* Contact search */
+._225b._6ybl,
+._8slc {
+  color: white;
+}
+
+/* 
+  Main area
+*/
+
+/* Main */
+._20bp {
+  background-color: #202124;
+}
+._7sli {
+  border-left: none;
+}
+/* Main header */
+._673w._6ynl {
+  background-color: #292a2d;
+  box-shadow: 0px 0px 4px black;
+}
+/* Main header name */
+._673w._6ynl ._3oh- {
+  color: white;
+}
+._673w._6ynl ._2v6o {
+  color: #ffffff66;
+}
+
+/*
+  Messages
+*/
+
+/* You replied/forwarded message */
+._3egs {
+  background: none;
+}
+._4k7a,
+._879m {
+  color: #ffffff80;
+}
+/* Timestamp */
+time._3oh- {
+  color: white;
+}
+/* Msg author */
+._ih3 {
+  color: #ffffff88;
+}
+
+/* Received message */
+._hh7 {
+  background-color: #3c4043;
+}
+._3oh- ._58nk,
+._3oh- ._58nk a {
+  color: white;
+}
+
+/* Message react */
+._aou,
+._aou * {
+  background-color: rgb(92, 92, 92);
+  color: white !important;
+}
+/* Add msg react */
+._aow,
+._aow * {
+  background-color: transparent;
+}
+i.sp_sbxFxdCZjuj {
+  filter: brightness(2);
+}
+/* Link preview */
+._5swm * {
+  color: white;
+}
+._5i_d .__6m {
+  color: #ffffff66;
+}
+/* Spotify preview? */
+._52mr._2poz._ui9._4skb._5i_d._4p_r {
+  background-color: #ffffffcc;
+}
+
+/* Msg options */
+._1z_2._2u_d._7i2j path {
+  fill: #ffffff82;
+}
+
+/* Reply label */
+._67tu {
+  color: white;
+}
+/* Reply preview */
+._67tw {
+  color: #ffffff80;
+}
+
+/* Main Footer */
+._5irm._7mkm {
+  background-color: #292a2d;
+}
+/* + icon */
+._5irm._7mkm ._7mki {
+  background: none;
+}
+/* Message input area */
+._5irm._7mkm ._7kpk {
+  color: white;
+  background-color: #ffffff0d;
+}
+/* Msg input placeholder */
+._1p1v {
+  -webkit-text-fill-color: #ffffff80;
+}
+
+/* typing...*/
+._17pz {
+  background: #202124;
+}
+
+/* Scrollbar */
+.uiScrollableAreaGripper {
+  background-color: darkgray;
+}
+
+/* Convo info pane */
+._4_j5 * {
+  color: white !important;
+}
+._4_j5 path {
+  fill: white;
+}
