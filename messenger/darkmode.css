@@ -216,3 +216,9 @@ i.sp_sbxFxdCZjuj {
 ._4_j5 path {
   fill: white;
 }
+/* Space between shared photos */
+._3m31:nth-of-type(3n + 1),
+._3m31:nth-of-type(3n + 2),
+._3m31:nth-of-type(3n + 3) {
+  border-color: #202124;
+}
