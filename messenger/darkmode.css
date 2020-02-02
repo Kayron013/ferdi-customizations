@@ -101,6 +101,10 @@ time._3oh- {
   color: white;
 }
 
+/* Read receipt */
+._8r4c path:nth-child(2) {
+  fill: #ffffffa3;
+}
 /* Message react */
 ._aou,
 ._aou * {
@@ -122,6 +126,10 @@ i.sp_sbxFxdCZjuj {
 ._5i_d .__6m {
   color: #ffffff66;
 }
+/* Emoji msg */
+/* ._41ud rect {
+  fill: #202124;
+} */
 /* Spotify preview? */
 ._52mr._2poz._ui9._4skb._5i_d._4p_r {
   background-color: #ffffffcc;
