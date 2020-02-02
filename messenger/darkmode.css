@@ -117,9 +117,15 @@ time._3oh- {
 .uiTooltipX .tooltipContent {
   background-color: white;
   color: black;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.514);
 }
 .uiContextualLayerLeft > .uiTooltipX i.arrow {
   border-left-color: white;
+}
+.uiContextualLayerAboveLeft > .uiTooltipX i.arrow,
+.uiContextualLayerAboveRight > .uiTooltipX i.arrow,
+.uiContextualLayerAboveCenter > .uiTooltipX i.arrow {
+  border-top-color: white;
 }
 
 /* Read receipt */
@@ -159,7 +165,7 @@ i.sp_sbxFxdCZjuj {
 }
 
 /* Msg options */
-._1z_2._2u_d._7i2j path {
+._2u_d._7i2j path {
   fill: #ffffff82;
 }
 
