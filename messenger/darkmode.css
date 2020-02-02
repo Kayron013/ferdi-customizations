@@ -47,8 +47,12 @@
 
 /* Contact search */
 ._225b._6ybl,
-._8slc {
+._8slc,
+._3q34 {
   color: white;
+}
+._3q35 {
+  color: #ffffffba;
 }
 
 /* 
@@ -79,6 +83,10 @@
   Messages
 */
 
+/* You changed emoji/theme */
+._497p {
+  color: #ffffff66;
+}
 /* You replied/forwarded message */
 ._3egs {
   background: none;
@@ -89,7 +97,7 @@
 }
 /* Timestamp */
 time._3oh- {
-  color: white;
+  color: #ffffffa1;
 }
 /* Msg author */
 ._ih3 {
@@ -133,16 +141,18 @@ i.sp_sbxFxdCZjuj {
   filter: brightness(2);
 }
 /* Link preview */
-._5swm * {
+._5swm *,
+._5i_d .__6k,
+._5i_d .__6l {
   color: white;
 }
 ._5i_d .__6m {
   color: #ffffff66;
 }
-/* Emoji msg */
-/* ._41ud rect {
+/* Thumbs Up emoji msg */
+._2poz._ui9._576q svg > rect {
   fill: #202124;
-} */
+}
 /* Spotify preview? */
 ._52mr._2poz._ui9._4skb._5i_d._4p_r {
   background-color: #ffffffcc;
