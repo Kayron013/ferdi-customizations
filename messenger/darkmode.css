@@ -1,6 +1,10 @@
 ::placeholder {
   color: #ffffff80 !important;
 }
+/* Context menus & popups */
+.uiContextualLayerPositioner {
+  z-index: 1000;
+}
 
 /*
   Sidebar
@@ -99,6 +103,15 @@ time._3oh- {
 ._3oh- ._58nk,
 ._3oh- ._58nk a {
   color: white;
+}
+
+/* Msg tooltip */
+.uiTooltipX .tooltipContent {
+  background-color: white;
+  color: black;
+}
+.uiContextualLayerLeft > .uiTooltipX i.arrow {
+  border-left-color: white;
 }
 
 /* Read receipt */
