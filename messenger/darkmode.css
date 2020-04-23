@@ -113,6 +113,12 @@ time._3oh- {
   color: white;
 }
 
+/* Emoji reply */
+._nd_ ._3058._s1-._6e6n,
+._3erg ._4k7c {
+  border-color: transparent;
+}
+
 /* Msg tooltip */
 .uiTooltipX .tooltipContent {
   background-color: white;
@@ -149,7 +155,9 @@ i.sp_sbxFxdCZjuj {
 /* Link preview */
 ._5swm *,
 ._5i_d .__6k,
-._5i_d .__6l {
+._5i_d .__6l,
+._2p_d,
+._2p_c {
   color: white;
 }
 ._5i_d {
