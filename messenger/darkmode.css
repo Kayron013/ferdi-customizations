@@ -1,9 +1,14 @@
 ::placeholder {
   color: #ffffff80 !important;
 }
+
 /* Context menus & popups */
 .uiContextualLayerPositioner {
   z-index: 1000;
+}
+
+a {
+  color: #5d91f9;
 }
 
 /*
@@ -82,6 +87,14 @@
 /*
   Messages
 */
+
+/* You're friends on facebook */
+._1n-e {
+  color: #ffffffa8;
+}
+._1n-e._36zg {
+  color: white;
+}
 
 /* You changed emoji/theme */
 ._497p {
