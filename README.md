@@ -1,2 +1,2 @@
-# ferdi-darkmode-styles
-Custom dark-mode CSS for Ferdi services
+# ferdi-customizations
+Custom dark-mode CSS and unread message retrievers
