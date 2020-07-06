@@ -9,20 +9,17 @@ function _interopRequireDefault(obj) {
 module.exports = Franz => {
   const getMessages = function getMessages() {
     //prettier-ignore
-    const unreadGuildMsgs = Number(
-      Array
-      .from(document.querySelectorAll('[data-ref-id="guildsnav"] [class^="numberBadge"]'))
-      .reduce((acc, el) => acc + el.textContent, 0)
-    );
-
-    //prettier-ignore
     const unreadDirectMsgs = Number(
       Array
         .from(document.querySelectorAll('[class^="numberBadge"]'))
         .reduce((acc, el) => acc + el.textContent, 0)
-    ) - unreadGuildMsgs;
+    );
 
-    Franz.setBadge(unreadDirectMsgs, unreadGuildMsgs);
+    const unreadGuildConvos = document.querySelectorAll(
+      '[data-ref-id="guildsnav"] div[class^="pill"] span[class^="item"][style*="height: 8px"]'
+    ).length;
+
+    Franz.setBadge(unreadDirectMsgs, unreadGuildConvos);
   };
 
   Franz.loop(getMessages);
