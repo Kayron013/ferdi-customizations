@@ -1,2 +1,2 @@
-# ferdi-customizations
-Custom dark-mode CSS and unread message retrievers
+# franz-customizations
+Custom dark-mode CSS and unread message counters for existing Franz services.
