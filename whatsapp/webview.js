@@ -31,15 +31,15 @@ window.addEventListener('beforeunload', async () => {
 
 module.exports = Franz => {
   const getMessages = function getMessages() {
-    const elems = [...document.querySelectorAll('._2gsiG')];
+    const chatList = [...document.querySelectorAll('[aria-label*="Chat list"] > div')];
 
     const isMuted = el => el.querySelector('[data-icon = "muted"]') !== null;
 
-    const count = elems.reduce((acc, el) => {
+    const count = chatList.reduce((acc, el) => {
       if (isMuted(el)) {
         return acc;
       }
-      const countEl = el.querySelector('.VOr2j');
+      const countEl = el.querySelector('[aria-label~="unread"]');
       const c = countEl ? Number(countEl.textContent) : 0;
       return acc + c;
     }, 0);
